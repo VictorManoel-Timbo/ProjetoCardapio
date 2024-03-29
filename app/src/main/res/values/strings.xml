@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">TimBer\'s</string>
+
+    <string name="DescriptionArrowNext">Passa ao cardápio</string>
+    <string name="DescriptionArrowBack">Volta à tela inicial</string>
+
+    <string name="textAppetizer">Entradas</string>
+    <string name="textBigFood">Pratos Princípais</string>
+    <string name="textDesserts">Sobremesas</string>
+    <string name="textDrinks">Bebidas</string>
+
+    <string name="total">R$ </string>
+
+    <string name="buttomPay">PEDIR</string>
+    <string name="buttomFinally">REALIZAR PEDIDO</string>
+    <string name="textButtomError">Selecione pelo menos um item do cardápio.</string>
+    <string name="textButtomFinally">Seu pedido foi enviado ao balcão do restaurante.</string>
+
+    <string name="editDetails">Digite aqui suas preferências.</string>
+    <string name="textHeaderDetails">Detalhes do pedido</string>
+
+    <!-- ENTRADAS -->
+
+    <string name="textBatataFrita">Batatas fritas</string>
+    <string name="tempBatataFrita">30 minutos</string>
+    <string name="DescriptionBatataFrita">Uma porção de 300 gramas de batata frita deliciosa, coberta com queijo e bacon.</string>
+    <string name="priceBatataFrita">R$ 22,00</string>
+
+    <string name="textPaoDeAlho">Pão de alho</string>
+    <string name="tempPaoDeAlho">30 minutos</string>
+    <string name="DescriptionPaoDeAlho"> Pão de alho caseiro crocante, feito com pasta de alho, queijo e ervas finas, dentro de um pão artesanal.</string>
+    <string name="pricePaoDeAlho">R$ 15,00</string>
+
+    <string name="textBolinhoDeArroz">Bolinho de arroz frito</string>
+    <string name="tempBolinhoDeArroz">20 minutos</string>
+    <string name="DescriptionBolinhoDeArroz">12 unidades de bolinho de arroz frito super saboroso e crocante, junto de molho rosê para acompanhar.</string>
+    <string name="priceBolinhoDeArroz">R$ 18,00</string>
+
+    <string name="textTilaipaFrita">Tilápia frita</string>
+    <string name="tempTilapiaFrita">30 minutos</string>
+    <string name="DescriptionTilapiaFrita">12 unidades de tilápia frita no oléo de dendê, super leve, sendo servidas com limão espremido e molho rosê. </string>
+    <string name="priceTilapiaFrita">R$ 25,00</string>
+
+    <!-- PRATOS PRINCIPAIS -->
+
+    <string name="textFrangoAoVinho">Frango ao vinho</string>
+    <string name="tempFrangoAoVinho">90 minutos</string>
+    <string name="DescriptionFrangoAoVinho">Uma porção de 500 gramas de frango marinado no vinho tinto e ervas finas, cozido lentamente com bacon e legumes, acompanhado de molho branco.</string>
+    <string name="priceFrangoAoVinho">R$ 50,00</string>
+
+    <string name="textLasanha">Lasanha bolonhesa</string>
+    <string name="tempLasanha">60 minutos</string>
+    <string name="DescriptionLasanha">Lasanha feita com massa fresca acompanhada de queijo parmesão, brie, molho bolonhesa e ervas finas.</string>
+    <string name="priceLasanha">R$ 45,00</string>
+
+    <string name="textRisoto">Risoto</string>
+    <string name="tempRisoto">50 minutos</string>
+    <string name="DescriptionRisoto">Risoto cremoso feito com vinho branco, suco de um limão siciliano, parmesão, caldo de legumes e ervas finas.</string>
+    <string name="priceRisoto">R$ 35,00</string>
+
+    <string name="textFileMignon">Filé mignon suíno</string>
+    <string name="tempFileMignon">100 minutos</string>
+    <string name="DescriptionFileMignon">Uma peça de filé mignon cozida lentamente em cerveja clara, acompanhada de molho madeira. </string>
+    <string name="priceFileMignon">R$ 62,00</string>
+
+    <!-- SOBREMESAS -->
+
+    <string name="textBrownieSorvete">Brownie com sorvete</string>
+    <string name="tempBrownieSorvete">20 minutos</string>
+    <string name="DescriptionBrownieSorvete">Um brownie de chocolate meio amargo com castanhas de caju recheado com doce de leite, acompanhado de uma bola de sorvete de creme.</string>
+    <string name="priceBrownieSorvete">R$ 15,00</string>
+
+    <string name="textPudim">Pudim</string>
+    <string name="tempPudim">30 minutos</string>
+    <string name="DescriptionPudim">Pudim de leite condensado acompanhando de uma cobertura de caramelo.</string>
+    <string name="pricePudim">R$ 12,00</string>
+
+    <string name="textMousse">Mousse</string>
+    <string name="tempMousse">15 minutos</string>
+    <string name="DescriptionMousse">Mousse cremoso nos sabores limão, morango, maracúja, chocolate, abacaxi, manga e creme.</string>
+    <string name="priceMousse">R$ 10,00</string>
+
+    <string name="textPastelDeBelem">Pastel de Belém</string>
+    <string name="tempPastelDeBelem">35 minutos</string>
+    <string name="DescriptionPastelDeBelem">03 unidades de pastéis, feitos com massa folhada e recheados com uma nata super cremosa.</string>
+    <string name="pricePastelDeBelem">R$ 18,00</string>
+
+    <!-- BEBIDAS -->
+
+    <string name="textAgua">Água</string>
+    <string name="DescriptionAgua">Garrafa de água, com ou sem gás, de 500 ml.</string>
+    <string name="priceAgua">R$ 05,00</string>
+
+    <string name="textSuco">Suco</string>
+    <string name="DescriptionSuco">500 ml de suco de manga, maracúja, acerola, limão, cajá, laranja, tamarindo ou goiaba.</string>
+    <string name="priceSuco">R$ 07,00</string>
+
+    <string name="textSaoGeraldo">São Geraldo</string>
+    <string name="DescriptionSaoGeraldo">Garrafa de 2 litros.</string>
+    <string name="priceSaoGeraldo">R$ 14,00</string>
+
+    <string name="textCerveja">Cerveja</string>
+    <string name="DescriptionCerveja">Litrão de Amstel, Skol, Brahma duplo malte ou Devassa.</string>
+    <string name="priceCerveja">R$ 12,00</string>
+
+
+</resources>

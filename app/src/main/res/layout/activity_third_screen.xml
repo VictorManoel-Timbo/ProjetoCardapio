@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_2"
+    tools:context=".ThirdScreen">
+
+    <View
+        android:id="@+id/view_top"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:background="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_bottom"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="@string/app_name"
+        android:textColor="@color/black_2"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_top"
+        app:layout_constraintEnd_toEndOf="@id/view_top"
+        app:layout_constraintStart_toStartOf="@id/view_top"
+        app:layout_constraintTop_toTopOf="@id/view_top" />
+
+    <Button
+        android:id="@+id/btnPayFinally"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/black_2"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/buttomFinally"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_bottom"
+        app:layout_constraintEnd_toEndOf="@id/view_bottom"
+        app:layout_constraintStart_toStartOf="@id/view_bottom"
+        app:layout_constraintTop_toTopOf="@id/view_bottom" />
+
+    <RelativeLayout
+        android:id="@+id/detailsDishes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="8dp"
+        android:background="@color/white"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@id/view_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_top"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textHeaderDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/textHeaderDetails"
+            android:textAlignment="center"
+            android:textColor="@color/black_2"
+            android:textSize="22sp" />
+
+        <View
+            android:id="@+id/separatorDetails"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/textHeaderDetails"
+            android:background="@color/black_2" />
+
+        <ScrollView
+            android:id="@+id/scrollDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textValor"
+            android:layout_below="@id/separatorDetails"
+            android:background="@color/white"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textDetails"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5sp"
+                    android:layout_weight="2"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black_2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textDetailsValues"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5sp"
+                    android:layout_weight="2"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/black_2"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textValor"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_above="@id/editPreferences"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:textColor="@color/black_2"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ECECEC"
+            android:gravity="top"
+            android:hint="@string/editDetails"
+            android:inputType="text"
+            android:textColor="@color/black_2"
+            android:textColorHint="@color/black_2"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/icBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/DescriptionArrowBack"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
